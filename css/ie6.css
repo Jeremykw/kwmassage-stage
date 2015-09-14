@@ -1,0 +1,16 @@
+/*#leftcol {padding:74px 18px 20px 27px; }
+.select {
+display:none;
+	background:none;
+top:0px;
+	color:#fff;
+text-indent:-9999px;
+}
+#formbox .textfield{position:relative;}
+#formbox .textfield { display:inline; }
+#rate_box {position:relative;}
+#footer{float:none; clear:left;}
+#footer_bottom{clear:left; float:none;}
+#navigation { margin:0 auto; border:1px solid red;height:100px;}
+*/
+#navigation{border:1px solid red;}

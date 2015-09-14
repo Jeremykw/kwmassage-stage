@@ -1,0 +1,31 @@
+/* CSS Document */
+
+
+
+.checkbox, .radio {
+	width: 19px;
+	height: 19px;
+	float: left;
+	background-image:url(checkbox.gif);
+	background-repeat: no-repeat;
+	padding-top: 0;
+	padding-right: 5px;
+	padding-bottom: 0;
+	padding-left: 0;
+}
+.radio {
+	background: url(radio.gif) no-repeat;
+}
+.select {
+	position:absolute;
+	width:253px; /* With the padding included, the width is 200 pixels: the actual width of the image. */
+	height:35px;
+	overflow:hidden;
+	line-height:35px;
+	background:url(/assets/images/bg_listmenu.gif) no-repeat;
+	border:none;
+	padding:0 0 0 16px;
+	margin:0px;
+	color:#55564f;
+	font-size:13px;
+}
