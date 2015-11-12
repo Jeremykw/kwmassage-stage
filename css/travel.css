@@ -4,7 +4,7 @@
 -----------------------------------------------------------------*/
 
 .header_background{
-	background: url('/assets/images/bg_body_mountain.jpg');
+	background: url('{{site.url}}/assets/images/bg_body_mountain.jpg');
 	background-repeat: no-repeat; 
 	background-size: cover;
 }
