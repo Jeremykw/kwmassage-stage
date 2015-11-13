@@ -4,7 +4,7 @@
 -----------------------------------------------------------------*/
 
 .header_background{
-	background: url({% if site.url == "http://jeremykw.github.io/kwmassage-stage" %}{{site.url}}{% endif %}/assets/images/bg_body_mountain.jpg);
+	background: url(http://jeremykw.github.io/kwmassage-stage/assets/images/bg_body_mountain.jpg);
 	background-repeat: no-repeat; 
 	background-size: cover;
 }
