@@ -405,7 +405,7 @@ var SEMICOLON = SEMICOLON || {};
 
 			if( $lightboxIframeEl.length > 0 ) {
 				$lightboxIframeEl.magnificPopup({
-					disableOn: 600,
+					disableOn: 100,
 					type: 'iframe',
 					removalDelay: 160,
 					preloader: false,
@@ -1419,7 +1419,7 @@ var SEMICOLON = SEMICOLON || {};
 		captionPosition: function(){
 			$slider.find('.slider-caption:not(.custom-caption-pos)').each(function(){
 				var scapHeight = $(this).outerHeight();
-				var scapSliderHeight = $slider.outerHeight();
+				var scapSliderHeight = 575; /* kwmassage edit; $slider.outerHeight() = 575 */
 				if( $(this).parents('#slider').prev('#header').hasClass('transparent-header') && ( $body.hasClass('device-lg') || $body.hasClass('device-md') ) ) {
 					if( $(this).parents('#slider').prev('#header').hasClass('floating-header') ) {
 						$(this).css({ top: ( scapSliderHeight + 160 - scapHeight ) / 2 + 'px' });

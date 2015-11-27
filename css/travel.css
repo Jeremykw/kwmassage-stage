@@ -2,6 +2,45 @@
 	Canvas: Travel Demo
 	Version: 1.0
 -----------------------------------------------------------------*/
+.rates_no_margin {
+	margin-left: 0;
+	text-align: left;
+}
+
+.sidebar_sm {
+	position: inherit;
+}
+.ratebox, .ratebox_xxs{
+	margin-left: 25px; 
+	width: 75px; 
+	text-align: left;
+}
+.ratebox_xxs{
+
+}
+
+.content-wrap ul {
+	text-align: left;
+}
+.clinic_pics{
+	text-align: justify;
+}
+
+.clinic_pics h2{
+	text-align: center;
+}
+.sm-bg-image{
+	background-image: url('http://jeremykw.github.io/kwmassage-stage/assets/images/bg_body_mountain_sm.jpg');
+	background-size: auto;
+}
+.lg-bg-image{
+	background-image: url('http://jeremykw.github.io/kwmassage-stage/assets/images/bg_body_mountain.jpg');
+	background-size: 120%;
+
+}
+.testi-video{
+	display: none;
+}
 
 .header_background{
 	background: url(http://jeremykw.github.io/kwmassage-stage/assets/images/bg_body_mountain.jpg);

@@ -444,12 +444,18 @@ span.middot {
 	overflow: hidden;
 }
 
-.mobile-parallax,
+.mobile-parallax {
+	background-size: cover;
+	background-attachment: scroll !important;
+	background-position: center center;
+}
+
 .video-placeholder {
 	background-size: cover !important;
 	background-attachment: scroll !important;
 	background-position: center center;
 }
+
 
 .section .container { z-index: 2; }
 
@@ -3286,7 +3292,7 @@ body.stretched .container-fullwidth .breadcrumb { right: 60px !important; }
 
 #page-title.page-title-parallax {
 	background-color: transparent;
-	background-image: url('images/parallax/parallax-bg.jpg');
+	/*background-image: url('images/parallax/parallax-bg.jpg');*/
 	background-attachment: fixed;
 	background-position: 50% 0;
 	background-repeat: no-repeat;

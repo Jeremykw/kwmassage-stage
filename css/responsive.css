@@ -560,8 +560,8 @@
 		margin-right: 0;
 		float: none !important;
 		margin-bottom: 40px !important;
-		padding-bottom: 40px;
-		border-bottom: 1px solid #EEE;
+		/*padding-bottom: 40px;*/
+		/*border-bottom: 1px solid #EEE;*/
 	}
 
 	.sidebar.col_last {
@@ -1398,8 +1398,10 @@
 	.swiper_wrapper:not(.full-screen):not(.canvas-slider-grid) .swiper-slide { height: 400px !important; }
 
 	.sidebar-widgets-wrap {
-		position: relative;
+		/*position: relative;*/
 		margin: 0 -38px -40px 0;
+		width: 720px;
+
 	}
 
 	.sidebar-widgets-wrap .widget {
