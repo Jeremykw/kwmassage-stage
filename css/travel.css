@@ -2,14 +2,15 @@
 	Canvas: Travel Demo
 	Version: 1.0
 -----------------------------------------------------------------*/
+.before_and_after_none p:after, .before_and_after_none p:before {
+	content: none;
+}
+
 .rates_no_margin {
 	margin-left: 0;
 	text-align: left;
 }
 
-/*.sidebar_sm {
-	position: inherit;
-}*/
 .ratebox, .ratebox_xxs{
 	margin-left: 25px; 
 	width: 75px; 
