@@ -540,7 +540,7 @@ body.stretched .container-fullwidth {
 /* ----------------------------------------------------------------
 	Flex Slider
 -----------------------------------------------------------------*/
-/*
+
 
 .fslider,
 .fslider .flexslider,
@@ -618,7 +618,7 @@ html[xmlns] .slider-wrap {display: block;}
 
 .flex-control-nav li:hover a,
 .flex-control-nav li a.flex-active { background-color: #FFF; }
-*/
+
 
 /* ----------------------------------------------------------------
 	Swiper Slider
