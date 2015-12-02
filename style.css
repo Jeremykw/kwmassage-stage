@@ -442,12 +442,14 @@ span.middot {
 	background-position: 50% 0;
 	background-repeat: no-repeat;
 	overflow: hidden;
+	background-image: url('assets/images/bg_body_mountain.jpg');
 }
 
 .mobile-parallax {
 	background-size: cover;
 	background-attachment: scroll !important;
 	background-position: center center;
+	background-image: none;
 }
 
 .video-placeholder {
