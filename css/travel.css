@@ -2,6 +2,17 @@
 	Canvas: Travel Demo
 	Version: 1.0
 -----------------------------------------------------------------*/
+.testi-span{
+	color: rgb(85, 85, 85);
+	font-family: Lato, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	height: 18px;
+	line-height: 18px;
+	padding-left: 10px;
+	text-transform: none;
+}
+
 .before_and_after_none p:after, .before_and_after_none p:before {
 	content: none;
 }
