@@ -23,6 +23,11 @@
     <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
   <![endif]-->
 
+
+<!-- External JavaScripts
+============================================= -->
+<script type="text/javascript" src="http://jeremykw.github.io/kwmassage-stage/js/jquery.js"></script>
+<script type="text/javascript" src="http://jeremykw.github.io/kwmassage-stage/js/plugins.js"></script>
  
 
   <!-- Document Title
@@ -199,7 +204,7 @@ Kitchener, ON<br />
 
 	<div  style="text-align: right; width: 90px;" class="col_half fright col_last norightmargin noleftmargin">
     	10:00 - 5:00<br />
-    	10:00 - 8:00<br />
+    	10:00 - 6:30<br />
     	10:00 - 5:00<br />
     	10:00 - 3:00<br />
     	10:00 - 3:00<br />
@@ -271,37 +276,37 @@ Kitchener, ON<br />
                <div class="widget quick-contact-widget">
                     <h4>Send Message</h4>
 
-<div id="quick-contact-form-result" data-notify-type="success" data-notify-msg="<i class=icon-ok-sign></i> Message Sent Successfully!"></div>
+<div id="footer-contact-form-result" data-notify-type="success" data-notify-msg="<i class=icon-ok-sign></i> Message Sent Successfully!"></div>
 
-<form id="quick-contact-form" name="quick-contact-form" action="/include/quickcontact.php" method="post" class="quick-contact-form nobottommargin">
+<form id="footer-contact-form" name="footer-contact-form" action="/include/footercontact.php" method="post" class="nobottommargin">
 
     <div class="form-process"></div>
     <div class="input-group divcenter">
         <span class="input-group-addon"><i class="icon-user"></i></span>
-        <input type="text" class="required form-control input-block-level" id="quick-contact-form-name" name="quick-contact-form-name" value="" placeholder="Full Name" />
+        <input type="text" class="required form-control input-block-level" id="footer-contact-form-name" name="footer-contact-form-name" value="" placeholder="Full Name" />
     </div>
     <div class="input-group divcenter">
         <span class="input-group-addon"><i class="icon-email2"></i></span>
-        <input type="text" class="required form-control email input-block-level" id="quick-contact-form-email" name="quick-contact-form-email" value="" placeholder="Email Address" />
+        <input type="text" class="required form-control email input-block-level" id="footer-contact-form-email" name="footer-contact-form-email" value="" placeholder="Email Address" />
     </div>
-    <textarea class="required form-control input-block-level short-textarea" id="quick-contact-form-message" name="quick-contact-form-message" rows="4" cols="30" placeholder="Message"></textarea>
-    <input type="text" class="hidden" id="quick-contact-form-botcheck" name="quick-contact-form-botcheck" value="" />
-    <button type="submit" id="quick-contact-form-submit" name="quick-contact-form-submit" class="btn btn-danger fright nomargin" value="submit">Send Email</button>
+    <textarea class="required form-control input-block-level short-textarea" id="footer-contact-form-message" name="footer-contact-form-message" rows="4" cols="30" placeholder="Message"></textarea>
+    <input type="text" class="hidden" id="footer-contact-form-botcheck" name="footer-contact-form-botcheck" value="" />
+    <button type="submit" id="footer-contact-form-submit" name="footer-contact-form-submit" class="btn btn-danger fright nomargin" value="submit">Send Email</button>
 </form>
 
 <script type="text/javascript">
-    $("#quick-contact-form").validate({
+    $("#footer-contact-form").validate({
         submitHandler: function(form) {
             $(form).animate({ opacity: 0.4 });
             $(form).find('.form-process').fadeIn();
             $(form).ajaxSubmit({
-                target: '#quick-contact-form-result',
+                target: '#footer-contact-form-result',
                 success: function() {
                     $(form).animate({ opacity: 1 });
                     $(form).find('.form-process').fadeOut();
                     $(form).find('.form-control').val('');
-                    $('#quick-contact-form-result').attr('data-notify-msg', $('#quick-contact-form-result').html()).html('');
-                    SEMICOLON.widget.notifications($('#quick-contact-form-result'));
+                    $('#footer-contact-form-result').attr('data-notify-msg', $('#footer-contact-form-result').html()).html('');
+                    SEMICOLON.widget.notifications($('#footer-contact-form-result'));
                 }
             });
         }
@@ -364,10 +369,6 @@ Kitchener, ON<br />
 </footer>
 
 
-<!-- External JavaScripts
-============================================= -->
-<script type="text/javascript" src="http://jeremykw.github.io/kwmassage-stage/js/jquery.js"></script>
-<script type="text/javascript" src="http://jeremykw.github.io/kwmassage-stage/js/plugins.js"></script>
     <!-- Footer end -->
   </div>
   <!-- Footer Scripts

@@ -4,16 +4,16 @@ require_once('phpmailer/class.phpmailer.php');
 
 $mail = new PHPMailer();
 
-if( isset( $_POST['quick-contact-form-submit'] ) AND $_POST['quick-contact-form-submit'] == 'submit' ) {
-    if( $_POST['quick-contact-form-name'] != '' AND $_POST['quick-contact-form-email'] != '' AND $_POST['quick-contact-form-message'] != '' ) {
+if( isset( $_POST['tabs-contact-form-submit'] ) AND $_POST['tabs-contact-form-submit'] == 'submit' ) {
+    if( $_POST['tabs-contact-form-name'] != '' AND $_POST['tabs-contact-form-email'] != '' AND $_POST['tabs-contact-form-message'] != '' ) {
 
-        $name = $_POST['quick-contact-form-name'];
-        $email = $_POST['quick-contact-form-email'];
-        $message = $_POST['quick-contact-form-message'];
+        $name = $_POST['tabs-contact-form-name'];
+        $email = $_POST['tabs-contact-form-email'];
+        $message = $_POST['tabs-contact-form-message'];
 
-        $subject = 'New Message From Quick Contact Form';
+        $subject = 'New Message From KWmassage, Tabs';
 
-        $botcheck = $_POST['quick-contact-form-botcheck'];
+        $botcheck = $_POST['tabs-contact-form-botcheck'];
 
         $toemail = 'jeremy@kwmassage.com'; // Your Email Address
         $toname = 'Jeremy Bissonnette, RMT'; // Your Name
