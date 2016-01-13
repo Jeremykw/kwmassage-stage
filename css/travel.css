@@ -49,6 +49,8 @@
 .lg-bg-image{
 	background-image: url('http://jeremykw.github.io/kwmassage-stage/assets/images/bg_body_mountain.jpg');
 	background-size: 120%;
+	background-position: center top;
+	background-color: white; 
 
 }
 .testi-video{
