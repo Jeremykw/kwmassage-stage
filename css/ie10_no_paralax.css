@@ -2,12 +2,11 @@
 ie10 no parallax
 --------------*/
 
-@media all and (-ms-high-contrast: none) {
-	
+
+
 	.page-title-parallax {}
 
 	.slider-parallax {}
 
 	.parallax {}
 
-}
