@@ -60,7 +60,7 @@
 .header_background{
 	background: url(http://jeremykw.github.io/kwmassage-stage/assets/images/bg_body_mountain.jpg);
 	background-repeat: no-repeat; 
-	background-size: cover;
+	background-size: 100%;
 }
 /*Testimonial page tagline*/
 .testimonial {
