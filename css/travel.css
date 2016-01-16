@@ -2,6 +2,107 @@
 	Canvas: Travel Demo
 	Version: 1.0
 -----------------------------------------------------------------*/
+
+/*
+
+My Styles start
+
+*/
+.white_background{
+	background-color: white;
+}
+
+.homepage_margin_adjust {
+	 margin-left: -15px; 
+	 margin-right: 0;
+}
+.testi-span{
+	color: rgb(85, 85, 85);
+	font-family: Lato, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	height: 18px;
+	line-height: 18px;
+	padding-left: 10px;
+	text-transform: none;
+}
+
+.before_and_after_none p:after, .before_and_after_none p:before {
+	content: none;
+}
+
+.rates_no_margin {
+	margin-left: 0;
+	text-align: left;
+}
+
+.ratebox, .ratebox_xxs{
+	margin-left: 25px; 
+	width: 75px; 
+	text-align: left;
+}
+.ratebox_xxs{
+
+}
+
+.content-wrap ul {
+	text-align: left;
+}
+.clinic_pics{
+	text-align: justify;
+}
+
+.clinic_pics h2{
+	text-align: center;
+}
+.sm-bg-image{
+	background-image: url('http://jeremykw.github.io/kwmassage-stage/assets/images/bg_body_mountain_sm.jpg');
+	background-size: auto;
+}
+.lg-bg-image{
+	background-image: url('http://jeremykw.github.io/kwmassage-stage/assets/images/bg_body_mountain.jpg');
+	background-size: 120%;
+	background-position: center top;
+	background-color: white; 
+
+}
+.testi-video{
+	display: none;
+}
+
+.header_background{
+	background: url(http://jeremykw.github.io/kwmassage-stage/assets/images/bg_body_mountain.jpg);
+	background-repeat: no-repeat; 
+	background-size: 100%;
+}
+/*Testimonial page tagline*/
+.testimonial {
+	margin-top: 10px;
+}
+.testimonial p {
+	color: rgb(85, 85, 85);
+	display: block;
+	font-family: 'Crete Round', serif;
+	font-size: 14px;
+	font-style: italic;
+	line-height: 25.2px;
+}
+
+#testi-span{
+	color: rgb(85, 85, 85);
+	font-family: Lato, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	height: 18px;
+	line-height: 18px;
+	padding-left: 10px;
+	text-transform: none;
+}
+/*Testimonial page tagline Ends*/
+
+/*
+
+*/
 #page-title-1 {
 	position: relative;
 	padding: 50px 0;
@@ -174,103 +275,8 @@
 #page-title-1.page-title-video .video-wrap video { width: 100%; }
 
 /*
-
-My Styles start
-
+Travel starts
 */
-.white_background{
-	background-color: white;
-}
-
-.homepage_margin_adjust{
-	 margin-left: -15px; 
-	 margin-right: 0;
-}
-.testi-span{
-	color: rgb(85, 85, 85);
-	font-family: Lato, sans-serif;
-	font-size: 12px;
-	font-weight: normal;
-	height: 18px;
-	line-height: 18px;
-	padding-left: 10px;
-	text-transform: none;
-}
-
-.before_and_after_none p:after, .before_and_after_none p:before {
-	content: none;
-}
-
-.rates_no_margin {
-	margin-left: 0;
-	text-align: left;
-}
-
-.ratebox, .ratebox_xxs{
-	margin-left: 25px; 
-	width: 75px; 
-	text-align: left;
-}
-.ratebox_xxs{
-
-}
-
-.content-wrap ul {
-	text-align: left;
-}
-.clinic_pics{
-	text-align: justify;
-}
-
-.clinic_pics h2{
-	text-align: center;
-}
-.sm-bg-image{
-	background-image: url('http://jeremykw.github.io/kwmassage-stage/assets/images/bg_body_mountain_sm.jpg');
-	background-size: auto;
-}
-.lg-bg-image{
-	background-image: url('http://jeremykw.github.io/kwmassage-stage/assets/images/bg_body_mountain.jpg');
-	background-size: 120%;
-	background-position: center top;
-	background-color: white; 
-
-}
-.testi-video{
-	display: none;
-}
-
-.header_background{
-	background: url(http://jeremykw.github.io/kwmassage-stage/assets/images/bg_body_mountain.jpg);
-	background-repeat: no-repeat; 
-	background-size: 100%;
-}
-/*Testimonial page tagline*/
-.testimonial {
-	margin-top: 10px;
-}
-.testimonial p {
-	color: rgb(85, 85, 85);
-	display: block;
-	font-family: 'Crete Round', serif;
-	font-size: 14px;
-	font-style: italic;
-	line-height: 25.2px;
-}
-
-#testi-span{
-	color: rgb(85, 85, 85);
-	font-family: Lato, sans-serif;
-	font-size: 12px;
-	font-weight: normal;
-	height: 18px;
-	line-height: 18px;
-	padding-left: 10px;
-	text-transform: none;
-}
-/*Testimonial page tagline Ends*/
-
-
 
 @font-face {
 	font-family: 'Arca Majora';
