@@ -2,41 +2,21 @@
  * detect IE
  * returns version of IE or false, if browser is not Internet Explorer
  */
-var detectIE = function () {
+// var detectIE = function () {
 
-    var ua = window.navigator.userAgent;
-    var msie = ua.indexOf("MSIE ");
+//     var ua = window.navigator.userAgent;
+//     var msie = ua.indexOf("MSIE ");
 
-    if (msie > 0) {     // If Internet Explorer, return version number
-        return true;
-    } else  {                 // If another browser, return 0
-		return false;
-    }
+//     if (msie > 0) {     // If Internet Explorer, return version number
+//         return true;
+//     } else  {                 // If another browser, return 0
+// 		return false;
+//     }
 
-}
+// }
 /*
 END - detect ie
 */
-
-/*
-remove parallax effect
-*/
-if (detectIE) {
-	if (document.getElementById("slider")) {
-		document.getElementById("slider").classList.remove("slider-parallax");
-	};
-	if (document.getElementById("page-title")){
-		document.getElementById("page-title").classList.remove("page-title-parallax");
-	};
-	if (document.getElementById("testi_parallax")){
-		document.getElementById("testi_parallax").classList.remove("parallax");
-	};
-};
-
-/*
-END - remove parallax effect
-*/
-
 var $ = jQuery.noConflict();
 
 $.fn.inlineStyle = function (prop) {
@@ -154,6 +134,26 @@ function onScrollSliderParallax() {
 	}
 	killRequesting();
 }
+
+
+/*
+remove parallax effect
+*/
+if ($.browser.msie) {
+	if (document.getElementById("slider")) {
+		document.getElementById("slider").classList.remove("slider-parallax");
+	};
+	if (document.getElementById("page-title")){
+		document.getElementById("page-title").classList.remove("page-title-parallax");
+	};
+	if (document.getElementById("testi_parallax")){
+		document.getElementById("testi_parallax").classList.remove("parallax");
+	};
+};
+
+/*
+END - remove parallax effect
+*/
 
 
 
