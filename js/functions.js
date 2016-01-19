@@ -1,22 +1,3 @@
-/**
- * detect IE
- * returns version of IE or false, if browser is not Internet Explorer
- */
-// var detectIE = function () {
-
-//     var ua = window.navigator.userAgent;
-//     var msie = ua.indexOf("MSIE ");
-
-//     if (msie > 0) {     // If Internet Explorer, return version number
-//         return true;
-//     } else  {                 // If another browser, return 0
-// 		return false;
-//     }
-
-// }
-/*
-END - detect ie
-*/
 var $ = jQuery.noConflict();
 
 $.fn.inlineStyle = function (prop) {
@@ -137,7 +118,7 @@ function onScrollSliderParallax() {
 
 
 /*
-remove parallax effect
+remove parallax effect in ie
 */
 if ($.browser.msie) {
 	if (document.getElementById("slider")) {
