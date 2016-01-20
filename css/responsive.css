@@ -2002,6 +2002,13 @@
 	#header.full-header .container,
 	.container-fullwidth { width: 310px !important; }
 */
+
+	.stretched #wrapper {
+		width: 100%;
+		margin: 0;
+		box-shadow: none;
+	}
+
 	.container.vertical-middle { width: 100% !important; }
 
 	.full-screen:not(.force-full-screen) .container.vertical-middle { width: 310px !important; }

@@ -163,6 +163,7 @@ small { font-family: 'Lato', sans-serif; }
 	box-shadow: 0 0 10px rgba(0,0,0,0.1);
 	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.1);
 	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.1);
+	margin-left: -20px;
 }
 
 .line,
@@ -12124,6 +12125,7 @@ label.checkbox { padding-left: 20px; }
 	width: 100%;
 	margin: 0;
 	box-shadow: none;
+	margin-left: -20px
 }
 
 
